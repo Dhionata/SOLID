@@ -1,4 +1,6 @@
-package br.com.solid
+package br.com.solid.db
+
+import br.com.solid.funcionarios.Funcionario
 
 class FuncionarioCRUD {
 

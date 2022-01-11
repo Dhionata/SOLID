@@ -1,4 +1,4 @@
-package br.com.solid
+package br.com.solid.db
 
 interface DBConnection {
     fun conectar()

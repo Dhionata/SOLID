@@ -1,4 +1,4 @@
-package br.com.solid
+package br.com.solid.funcionarios
 
 class Motorista(nome: String, lucro: Int, override var localizacao: ArrayList<Double>) : Funcionario(nome, lucro),
     Rastreavel {

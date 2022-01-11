@@ -1,4 +1,4 @@
-package br.com.solid
+package br.com.solid.db
 
 class MySQL : DBConnection {
     override fun conectar() {

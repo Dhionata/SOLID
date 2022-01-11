@@ -1,5 +1,10 @@
 package br.com.solid
 
+import br.com.solid.db.FuncionarioCRUD
+import br.com.solid.db.MySQL
+import br.com.solid.db.PostgreSQL
+import br.com.solid.funcionarios.*
+
 fun main() {
     val funcionario = Motorista("João", 123, arrayListOf(2.0, 3.0))
     funcionario.dirigir()

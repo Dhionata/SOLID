@@ -1,4 +1,4 @@
-package br.com.solid
+package br.com.solid.funcionarios
 
 interface Rastreavel {
     var localizacao: ArrayList<Double>
