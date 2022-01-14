@@ -14,4 +14,8 @@ class Motorista(nome: String, lucro: Int, override var localizacao: ArrayList<Do
             } $veiculo"
         )
     }
+
+    override fun toString(): String {
+        return super.toString() + "\nLocalização: $localizacao"
+    }
 }
