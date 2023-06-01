@@ -36,11 +36,3 @@ fun main() {
     funcionarioCRUD.salvar(postgreSQL, funcionario2)
     funcionarioCRUD.salvar(postgreSQL, funcionario3)
 }
-
-//I - Interface, B filha de A pode ser usado para substituir A.
-fun printFuncionario(funcionario: Funcionario) {
-    if (funcionario is Motorista) {
-        val motorista: Motorista = funcionario
-        motorista.dirigir("carro")
-    }
-}
