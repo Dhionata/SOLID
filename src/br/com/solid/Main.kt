@@ -12,7 +12,7 @@ fun main() {
     println(funcionario)
 
     val funcionario2: Funcionario = Motorista("Dhionatã", 300, arrayListOf(2.0, 3.0))
-    printFuncionario(funcionario)
+    printFuncionario(funcionario2)
     print(funcionario2)
 
     val funcionario3 = Chefe("Hangel", 1000)
